@@ -1,0 +1,76 @@
+# TD Signature Events — Website
+
+Luxury, elegant website for TD Signature Events.
+
+## How to View Locally
+
+1. Open the folder `td-signature-events`
+2. Double-click `index.html` **or**
+3. Run a local server:
+   ```bash
+   # Python
+   python3 -m http.server 8000
+
+   # Then open http://localhost:8000
+   ```
+
+## What is Included
+
+- Fully responsive (mobile / tablet / desktop)
+- Elegant dark + gold luxury aesthetic matching your brand
+- Sticky navigation with mobile menu
+- Hero section with your logo
+- About section + 4-step Approach
+- 9 Service cards (planning, styling, staffing, etc.)
+- Gallery structure with category filters (ready for real photos)
+- Testimonials section
+- FAQ accordion
+- Full “Plan Your Event” enquiry form
+- Floating WhatsApp button
+- Footer with social links
+
+## Important Next Steps
+
+### 1. Add your real contact details
+Search and replace these placeholders in `index.html` and `script.js`:
+
+- `+234XXXXXXXXXX` → your real WhatsApp / phone number
+- `hello@tdsignatureevents.com` → your real email
+- Instagram & Facebook links in the footer
+
+### 2. Replace gallery images
+Currently the gallery uses your logo and branding images as placeholders.  
+Replace the images in the `assets/` folder with real event photography and update the `src` attributes in the gallery section.
+
+### 3. Connect the form
+The form currently shows a success message only.  
+For real submissions you can:
+
+- Use **Formspree** (easiest): change the form action to your Formspree endpoint
+- Use **Netlify Forms** if hosting on Netlify
+- Or connect to any backend / Google Sheets
+
+### 4. Host the website
+Recommended free options:
+
+- **Netlify** (drag & drop the folder) — best for forms
+- **Vercel**
+- **GitHub Pages**
+- Or any shared hosting / cPanel
+
+## Brand Assets Used
+
+- Logo (black background version)
+- Logo (white background version)
+- Logo (navy background version)
+- Services / team flyer image
+
+## Design Notes
+
+- Colours: Deep black, charcoal, champagne gold accents
+- Fonts: Cormorant Garamond (headings) + Montserrat (body)
+- Style: Premium, feminine yet sophisticated, warm and aspirational
+
+---
+
+Created for TD Signature Events — “Creating Signature Experiences.”
